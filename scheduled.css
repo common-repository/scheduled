@@ -1,0 +1,69 @@
+table.scheduled, table.scheduled tr, table.scheduled tr td
+	{
+	border: solid 1px black;
+	border-collapse: collapse;
+	padding: 2px 2px 2px 2px;
+	margin: 0px 0px 0px 0px;
+	background-color: lightblue;
+	}
+
+tr.scheduled_showasdate
+	{
+	height:20px;
+	xbackground-color: lightblue;
+	}
+
+textarea.scheduled
+	{
+	background-image: none;
+	background: white;
+	font: normal 12px/12px "Courier New", "Tahoma";
+	color: black;
+	width:350px;
+	height:100px;
+	}
+
+select#ScheduledAdminSelect
+	{
+	background-color: #FFCCFF;
+	font-family:Lucida Console;
+	width:400px;
+	height: 150px;
+	}
+
+.scheduled_admin
+	{
+	position: absolute;
+	background-color: #CCCCCC;
+	font: normal 12px "Courier New", "Tahoma";
+	padding: 20px 20px 20px 20px;
+	border: solid 2px black;
+	}
+
+.scheduled_admin_main
+	{
+	}
+
+.scheduled_admin_options
+	{
+	}
+
+.scheduled_admin_edit
+	{
+	}
+
+.scheduled_loader
+	{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	background: #333333;
+	background-image:url('/wp-content/plugins/scheduled/ajax-loader.gif');
+	background-repeat:no-repeat;
+	background-position: center;
+	}
